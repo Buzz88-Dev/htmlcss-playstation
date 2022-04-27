@@ -1,4 +1,4 @@
-/***** GENERAL RULES *****/
+/******************** GENERAL RULES ********************/
 
 * {
     margin: 0;
@@ -15,15 +15,19 @@ body {
     margin: 0 auto;
 }
 
-/***** HEADER *****/
+/******************** HEADER ********************/
 
 
-/***** MAIN *****/
 
+
+
+
+/******************** MAIN ********************/
+/***** main-first_block *****/
 #returnal {
     color: white;
     width: 100%;
-    height: 300px;
+    height: 500px;
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
 }
@@ -34,6 +38,8 @@ body {
 }
 
 
+
+/***** main-second_block *****/
 #console_ps5 img {
     width: 100%;
     height: auto;
@@ -41,14 +47,69 @@ body {
 
 
 
-/***** FOOTER *****/
+/***** main-third_block *****/
+#takes_two {
+    color: white;
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#takes_two img {
+    width: 30%;
+    height: auto;
+}
+
+
+
+/***** main-fourth_block *****/
+#new_releases {
+    background-color: grey;
+    color: white;
+}
+
+#new_releases img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/***** main-fifth_block *****/
+#ps_4 img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/***** main-sixth_block *****/
+#ps_plus {
+    width: 100%;
+    background-color: grey;
+}
+
+#ps_plus img {
+    width: 100%;
+    height: auto;
+}
 
 
 
 
 
 
-/***** MEDIA QUERY *****/
+
+/******************** FOOTER ********************/
+
+
+
+
+
+
+/******************** MEDIA QUERY ********************/
 
 @media screen and (min-width: 576px) {}
 
