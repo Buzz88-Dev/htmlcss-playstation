@@ -87,7 +87,6 @@ body {
 
 /***** main-sixth_block *****/
 #ps_plus {
-    width: 100%;
     background-color: grey;
 }
 
@@ -98,12 +97,45 @@ body {
 
 
 
+/***** main-sixth_block *****/
+#ps_store img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/***** main-eighth_block *****/
+#ps_now {
+    background-color: blue;
+}
+
+#ps_now img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/***** main-ninth_block *****/
+#ps_social_media img {
+    width: 100%;
+    height: auto;
+}
 
 
 
 
 /******************** FOOTER ********************/
+footer {
+    background-color: blue;
+    color: white;
+}
 
+footer img {
+    width: 100%;
+    height: auto;
+}
 
 
 
