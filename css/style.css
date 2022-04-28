@@ -132,12 +132,17 @@ body {
 
 /******************** FOOTER ********************/
 footer {
-    background-color: blue;
+    background-color: rgb(17, 17, 135);
     color: white;
 }
 
 footer .world img {
     width: 5%;
+    height: auto;
+}
+
+footer .sony img {
+    width: 20%;
     height: auto;
 }
 
