@@ -30,6 +30,7 @@ body {
     height: 500px;
     background-image: url("../img/jumbo-bg.png");
     background-size: cover;
+    background-position: center;
 }
 
 #returnal img {
@@ -37,6 +38,19 @@ body {
     height: auto;
 }
 
+#returnal .container-text {
+    position: relative;
+    height: 450px;
+}
+
+#returnal .container-text .absolute {
+    position: absolute;
+    bottom: 0;
+}
+
+#returnal .container-text p {
+    font-size: 13px;
+}
 
 
 /***** main-second_block *****/
@@ -45,6 +59,16 @@ body {
     height: auto;
 }
 
+#console_ps5 h5 {
+    color: rgb(39, 139, 239);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#console_ps5 p {
+    color: grey;
+    font-size: 14px;
+}
 
 
 /***** main-third_block *****/
@@ -55,6 +79,7 @@ body {
     background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #takes_two img {
@@ -62,11 +87,25 @@ body {
     height: auto;
 }
 
+#takes_two .container-text {
+    position: relative;
+    height: 450px;
+}
+
+#takes_two .container-text .absolute {
+    position: absolute;
+    bottom: 0;
+}
+
+#takes_two .container-text p {
+    font-size: 13px;
+}
+
 
 
 /***** main-fourth_block *****/
 #new_releases {
-    background-color: grey;
+    background-color: rgb(53, 50, 50);
     color: white;
 }
 
@@ -78,16 +117,26 @@ body {
 
 
 /***** main-fifth_block *****/
+#ps_4 p {
+    color: grey;
+    font-size: 14px;
+}
+
 #ps_4 img {
     width: 100%;
     height: auto;
+}
+
+#console_ps5 p {
+    color: grey;
+    font-size: 14px;
 }
 
 
 
 /***** main-sixth_block *****/
 #ps_plus {
-    background-color: grey;
+    background-color: rgb(163, 158, 158);
 }
 
 #ps_plus img {
@@ -95,12 +144,26 @@ body {
     height: auto;
 }
 
+#ps_plus .image_plus {
+    width: 60%;
+    height: auto;
+}
+
+#ps_plus p {
+    font-size: 12px;
+}
 
 
-/***** main-sixth_block *****/
+
+/***** main-seventh_block *****/
 #ps_store img {
     width: 100%;
     height: auto;
+}
+
+#ps_store p {
+    color: grey;
+    font-size: 15px;
 }
 
 
@@ -113,6 +176,16 @@ body {
 #ps_now img {
     width: 100%;
     height: auto;
+}
+
+#ps_now .image_ps_now {
+    width: 60%;
+    height: auto;
+}
+
+#ps_now p {
+    font-size: 12px;
+    color: white;
 }
 
 
@@ -142,7 +215,57 @@ footer img {
 
 
 /******************** MEDIA QUERY ********************/
+/*Display xs*/
+@media screen and (max-width: 575px) {
 
-@media screen and (min-width: 576px) {}
+    .display-none {
+        display: none;
+    }
 
-@media screen and (min-width: 768px) {}
+    .image_soulstorm {
+        display: none;
+    }
+
+    .image_avengers {
+        display: none;
+    }
+}
+
+
+
+/*Display sm*/
+@media screen and (max-width: 767px) {
+
+    .display-none {
+        display: none;
+    }
+
+    .image_soulstorm {
+        display: none;
+    }
+
+    .image_avengers {
+        display: none;
+    }
+}
+
+
+
+/*Display md*/
+@media screen and (max-width: 991px) {
+
+    .display-none {
+        display: none;
+    }
+}
+
+
+
+/*Display lg*/
+@media screen and (min-width: 992px) {
+
+    .margin_right {
+        margin: 0px 22px;
+    }
+
+}
