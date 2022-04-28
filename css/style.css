@@ -1,5 +1,4 @@
 /******************** GENERAL RULES ********************/
-
 * {
     margin: 0;
     padding: 0;
@@ -20,10 +19,17 @@ body {
     height: auto;
 }
 
+.bg-color-light_grey {
+    background-color: rgb(191, 177, 177);
+}
+
+.bg-color-dark_blue {
+    background-color: rgb(12, 12, 97);
+}
+
 
 
 /******************** HEADER ********************/
-
 
 
 
@@ -124,23 +130,26 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /******************** FOOTER ********************/
 footer {
     background-color: blue;
     color: white;
 }
+
+footer .world img {
+    width: 5%;
+    height: auto;
+}
+
+footer p {
+    font-size: 12px;
+}
+
+.margin-footer {
+    margin: 5px 20px;
+    font-size: 10px;
+}
+
 
 
 
@@ -182,6 +191,11 @@ footer {
     .ps_plus-ps_now img {
         width: 60%;
     }
+
+    .link_footer {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -221,6 +235,11 @@ footer {
     .ps_plus-ps_now img {
         width: 60%;
     }
+
+    .link_footer {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 
@@ -240,6 +259,12 @@ footer {
     .ps4-ps5-ps_store button {
         font-size: 14px;
     }
+
+    .link_footer {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
 }
 
 
@@ -249,6 +274,12 @@ footer {
 
     .margin_right {
         margin: 0px 22px;
+    }
+
+    .link_footer {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
     }
 
 }
