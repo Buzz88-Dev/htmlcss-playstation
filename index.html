@@ -14,15 +14,66 @@
 <body>
     <!--header-->
     <header>
-        
+        <div class="fixed-top fix">
+            <div id="first_block">
+                <div class="container-fluid bg-dark pt-1 pb-1">
+                    <div class="text-end">
+                        <img src="img/sony_logo.svg">
+                    </div>
+                </div>
+            </div>
 
+            <!--nav-->
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <img src="img/play_logo.svg" class="navbar-brand">
+                    <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span><i class="fas fa-bars"></i></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarText">
+                        <ul class="navbar-nav mb-lg-0">
+                            <li class="nav-item me-3">
+                                <a class="nav-link active text-dark" aria-current="page" href="#">Giochi</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link text-dark" href="#">Harware</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link text-dark" href="#">Servizi</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link text-dark" href="#">Novità</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <a class="nav-link text-dark" href="#">Fai acquisti</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#">Supporto</a>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav mb-lg-0">
+                            <li class="nav-item me-3">
+                                <a class="nav-link active text-dark" aria-current="page" href="#">My PlayStation</a>
+                            </li>
+                            <li class="nav-item me-3">
+                                <button type="button" class="btn btn-dark rounded-pill text-button">Accedi</button>
+                            </li>
+                            <li class="nav-item pt-1">
+                                <img src="img/lens.svg">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </header>
 
 
     <!----------main---------->
     <main>
         <!----------main-first_block---------->
-        <div class="image-background img-background-first">
+        <div class="image-background img-background-first mt-100">
             <div class="container-fluid">
                 <div class="container-text">
                     <div class="absolute">
@@ -381,7 +432,7 @@
                             <img src="img/ps-footer.svg" class="mb-3">
                             <div class="d-flex world">
                                 <img src="img/language-globe.svg">
-                                <p>Country/Region: Italy</p>
+                                <p class="pt-3 ms-2">Country/Region: Italy</p>
                             </div>
                         </div>
 
@@ -410,8 +461,6 @@
                     </div>
                 </div>   
                 
-                
-
                 <div class="pt-5">
                     <div class="d-flex">
                         <div class="row">
@@ -426,11 +475,8 @@
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
-
     </footer>
     
 </body>
