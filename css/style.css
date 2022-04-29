@@ -30,7 +30,27 @@ body {
 
 
 /******************** HEADER ********************/
+#first_block img {
+    width: 6%;
+    height: auto;
+}
 
+header nav ul li {
+    font-size: 14px;
+}
+
+header nav ul li .text-button {
+    font-size: 14px;
+}
+
+header nav ul li img {
+    width: 50%;
+    height: auto;
+}
+
+header nav ul li a {
+    font-weight: bold;
+}
 
 
 /******************** MAIN ********************/
@@ -69,6 +89,10 @@ body {
 
 .image-background .container-text p {
     font-size: 13px;
+}
+
+.mt-100 {
+    margin-top: 100px;
 }
 
 
@@ -154,7 +178,6 @@ footer p {
     margin: 5px 20px;
     font-size: 10px;
 }
-
 
 
 
