@@ -30,21 +30,25 @@ body {
 
 
 /******************** HEADER ********************/
-#first_block img {
+header #first_block img {
     width: 6%;
     height: auto;
 }
 
 header nav ul li {
-    font-size: 14px;
+    font-size: 12px;
+}
+
+.height-100 {
+    height: 100vh;
 }
 
 header nav ul li .text-button {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 header nav ul li img {
-    width: 50%;
+    width: 25px;
     height: auto;
 }
 
@@ -161,7 +165,7 @@ footer {
 }
 
 footer .world img {
-    width: 5%;
+    width: 3%;
     height: auto;
 }
 
@@ -171,7 +175,7 @@ footer .sony img {
 }
 
 footer p {
-    font-size: 12px;
+    font-size: 10px;
 }
 
 .margin-footer {
@@ -268,6 +272,7 @@ footer p {
         display: flex;
         flex-direction: column;
     }
+
 }
 
 
@@ -293,6 +298,7 @@ footer p {
         justify-content: flex-start;
         flex-wrap: wrap;
     }
+
 }
 
 
